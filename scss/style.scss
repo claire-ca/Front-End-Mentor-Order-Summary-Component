@@ -25,7 +25,7 @@ body {
     padding: 0;
     background: url(../images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw 30vh;
     background-color: $paleBlue;
     display: flex;
     flex-direction: column;
@@ -131,7 +131,7 @@ body {
     body {
         background: url(../images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100vw 40vh;
         background-color: $paleBlue;
     }
     .card__hero {

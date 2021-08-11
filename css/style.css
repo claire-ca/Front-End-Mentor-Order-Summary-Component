@@ -14,7 +14,7 @@ body {
   padding: 0;
   background: url(../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw 30vh;
   background-color: #e0e8ff;
   display: flex;
   flex-direction: column;
@@ -156,7 +156,7 @@ body {
   body {
     background: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw 40vh;
     background-color: #e0e8ff;
   }
   /* line 137, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
