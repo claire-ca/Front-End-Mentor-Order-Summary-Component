@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: $primaryFont;
-    height: 100vh;
+    min-height: 100vh;
 }
 .card {
     background-color: white;
@@ -40,7 +40,7 @@ body {
     box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15) ;
     width: 90%;
     max-width: 450px;
-    margin: 0 auto;
+    margin: 2rem 0;
     text-align: center;
     overflow: hidden;
 }

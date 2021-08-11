@@ -1,14 +1,14 @@
-/* line 17, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 17, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 *, *::after, *::before {
   box-sizing: border-box;
 }
 
-/* line 20, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 20, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 html {
   font-size: 100%;
 }
 
-/* line 23, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 23, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 body {
   margin: 0;
   padding: 0;
@@ -21,22 +21,22 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Red Hat Display", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-/* line 37, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 37, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.15);
   width: 90%;
   max-width: 450px;
-  margin: 0 auto;
+  margin: 2rem 0;
   text-align: center;
   overflow: hidden;
 }
 
-/* line 47, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 47, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__hero {
   height: 200px;
   background-image: url(../images/illustration-hero.svg);
@@ -45,20 +45,20 @@ body {
   background-position: 50% 50%;
 }
 
-/* line 54, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 54, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__inner {
   width: 80%;
   margin: 0 auto;
   padding: 2em 0;
 }
 
-/* line 59, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 59, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__text h1 {
   font-size: 1.375rem;
   font-weight: 900;
 }
 
-/* line 63, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 63, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__text p {
   color: #7280a7;
   font-weight: 500;
@@ -66,7 +66,7 @@ body {
   line-height: 2;
 }
 
-/* line 69, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 69, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__plan {
   display: flex;
   align-items: center;
@@ -77,24 +77,24 @@ body {
   padding: 1em;
 }
 
-/* line 77, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 77, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__plan p {
   font-size: 0.875rem;
 }
 
-/* line 79, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 79, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__plan p:first-of-type {
   color: #1f2f56;
   margin-bottom: -10px;
   font-weight: 900;
 }
 
-/* line 84, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 84, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .card__plan p:last-of-type {
   color: #7280a7;
 }
 
-/* line 89, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 89, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .music-icon {
   background: url(../images/icon-music.svg);
   width: 48px;
@@ -102,7 +102,7 @@ body {
   margin-right: 1em;
 }
 
-/* line 95, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 95, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .change-plan {
   color: #3829e0;
   font-weight: 700;
@@ -111,12 +111,12 @@ body {
   transition: color 0.2s ease-in;
 }
 
-/* line 101, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 101, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .change-plan:hover {
   color: #766CF1;
 }
 
-/* line 105, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 105, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .btn-link {
   display: block;
   font-size: 0.9375rem;
@@ -125,7 +125,7 @@ body {
   padding: 1em 0;
 }
 
-/* line 112, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 112, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .payment {
   background-color: #3829e0;
   box-shadow: 0 20px 20px rgba(56, 41, 224, 0.2);
@@ -135,44 +135,44 @@ body {
   transition: background-color 0.2s ease-in;
 }
 
-/* line 119, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 119, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .payment:hover {
   background-color: #766CF1;
 }
 
-/* line 123, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 123, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .cancel {
   color: #7280a7;
   transition: color 0.2s ease-in;
 }
 
-/* line 126, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+/* line 126, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
 .cancel:hover {
   color: #1f2f56;
 }
 
 @media screen and (min-width: 75rem) {
-  /* line 131, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+  /* line 131, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
   body {
     background: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #e0e8ff;
   }
-  /* line 137, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+  /* line 137, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
   .card__hero {
     height: 220px;
   }
-  /* line 140, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+  /* line 140, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
   .card__text h1 {
     font-size: 1.75rem;
   }
-  /* line 143, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+  /* line 143, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
   .card__text p,
   .card__plan p {
     font-size: 1rem;
   }
-  /* line 147, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-order-summary-component-main/scss/style.scss */
+  /* line 147, ../../../../../Users/clairecalder/Documents/GitHub/Front-End-Mentor-Order-Summary-Component/scss/style.scss */
   .change-plan {
     font-size: 0.875rem;
   }
