@@ -20,16 +20,18 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshots
+Mobile:
+![](./screenshots/Mobile.png)
 
-![Mobile](./screenshots/Mobile.png)
-![Desktop](./screenshots/Desktop.png)
+Desktop:
+![](./screenshots/Desktop.png)
 
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://front-end-mentor-order-summary-component-kohl.vercel.app/](https://front-end-mentor-order-summary-component-kohl.vercel.app/)
 
 ## My process
 
