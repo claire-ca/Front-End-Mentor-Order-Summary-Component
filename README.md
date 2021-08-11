@@ -22,9 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/Desktop.png)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Mobile](./screenshots/Mobile.png)
+![Desktop](./screenshots/Desktop.png)
 
 
 ### Links
@@ -39,6 +38,7 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 - Semantic HTML5 markup
 - Flexbox
 - Mobile-first workflow
+- SASS
 
 ## Author
 
